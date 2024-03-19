@@ -13,7 +13,13 @@ Autonomous turn: 180 degree turn every few seconds to avoid zumo getting stuck a
 Operation Guide
 1. Starting the zumo: Place the zumo at the starting point on the maze. Press the A button on thr robot to start the countdown and the navigation.
 2. Maze Navigation: The zumo will navigate itself through the maze using line sensors to detect the black lines(walls) making decisions at intersections based on the programming logic
-3. Delivery Simulation: Once the zumo detects an object(house) with its proximity sensors, the zumo will stop and emit a beep to simulate a delivery before continuing its navigation.
+3. Delivery simulation:
+- Scenario 1: On detecting an object (house) with its proximity sensors, the Zumo stops and emits a beep to simulate a delivery, then halts further navigation.
+- Scenario 2: Continues navigation after making a delivery, aiming for multiple deliveries within a single journey through the maze.
 4. 180 Degree Turn: To make sure the zumo doesnt get stuck it will perform a 180 degree turn every 10 seconds if no object is detected.
+
+Scenarios
+- Scenario 1: The Zumo is programmed to navigate through the maze and stopping after its first delivery is made, showcasing its ability to navigate to a specific target and comeplete the delivery task.
+- Scenario 2: In this scenario, the zumo is programmed for multiple deliveries and continuing to navigate through the maze after each delivery, this shows the zumo capabilities to manage muluitple deliveries.
 
 Acknowledgements I'd like to thank Sheffield Hallam University's Department of Computing for the opportunity to work on this project. Special thanks to our instructors and peers for their guidance and feedback throughout the development process.
