@@ -14,7 +14,7 @@ Operation Guide
 1. Starting the zumo: Place the zumo at the starting point on the maze. Press the A button on thr robot to start the countdown and the navigation.
 2. Maze Navigation: The zumo will navigate itself through the maze using line sensors to detect the black lines(walls) making decisions at intersections based on the programming logic
 3. Delivery simulation:
-- Scenario 1: On detecting an object (house) with its proximity sensors, the Zumo stops and emits a beep to simulate a delivery, then halts further navigation.
+- Scenario 1: On detecting an object (house) with its proximity sensors, the Zumo will stop and beep to simulate a delivery, and stops any further navigation.
 - Scenario 2: Continues navigation after making a delivery, aiming for multiple deliveries within a single journey through the maze.
 4. 180 Degree Turn: To make sure the zumo doesnt get stuck it will perform a 180 degree turn every 10 seconds if no object is detected.
 
