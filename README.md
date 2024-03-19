@@ -22,4 +22,4 @@ Scenarios
 - Scenario 1: The Zumo is programmed to navigate through the maze and stopping after its first delivery is made, showcasing its ability to navigate to a specific target and comeplete the delivery task.
 - Scenario 2: In this scenario, the zumo is programmed for multiple deliveries and continuing to navigate through the maze after each delivery, this shows the zumo capabilities to manage muluitple deliveries.
 
-Acknowledgements I'd like to thank Sheffield Hallam University's Department of Computing for the opportunity to work on this project. Special thanks to our instructors and peers for their guidance and feedback throughout the development process.
+Acknowledgements I'd like to thank Sheffield Hallam University's Department of Computing for the opportunity to work on this project. Special thanks to my instructors and peers for their guidance and feedback throughout the development process.
